@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+}
+.App {
+  width: 100;
+  min-height: 100vh;
+  padding: 70px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center ;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  
+}
+input{
+  margin-inline: 1rem;
+  margin-block:2rem ;
+  width: 700px;
+  padding: 15px;
+}
+.bu{
+  background-color: blue;
+}
+
+button{
+  padding: 15px;
+}
+
+@media only screen and (min-width: 500px) {
+  /* For tablets: */
+
+.element{
+  margin-block: 2rem ;
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 400px 400px 400px;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5rem;
+  row-gap: 5rem ;
+ 
+}
+}
+
+@media only screen and (max-width: 500px ) {
+  
+
+.element{
+  margin-block: 2rem ;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+}
+.element img{
+  max-width: 250px;
+}
+.element-div{
+  grid-column-start: 1;
+  grid-column-end: 3; 
+   background-color: lightblue;
+   grid-column: auto; 
+  height: 500;
+  border: 3px solid black;
+  margin:  auto;
+  padding: 20px;
+ 
+}
+.element11{
+  border: 3px solid black;
+  grid-column: auto
+   
+}
+.c1{
+  display: grid;
+  grid-template-columns: repeat(4,lfr);
+  grid-template-rows: repeat(4,lfr);
+}
+p{
+  margin: 0 auto;
+
+}
+
+
+
